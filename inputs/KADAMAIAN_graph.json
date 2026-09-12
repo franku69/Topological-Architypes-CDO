@@ -1,0 +1,62 @@
+{
+  "case": "KADAMAIAN",
+  "label": "Kadamaian-Panataran / Kota Belud",
+  "variant": "report_coarse",
+  "sources": [
+    "K",
+    "P",
+    "L"
+  ],
+  "names": {
+    "K": "Upper Kadamaian",
+    "P": "Panataran",
+    "L": "Lower / intermediate residual",
+    "J0": "Kadamaian-Panataran junction",
+    "R": "Tamu Darat / lower receiving aggregate",
+    "O": "Coastal receiving boundary aggregate"
+  },
+  "edges": [
+    [
+      "K",
+      "J0",
+      1,
+      1.0
+    ],
+    [
+      "P",
+      "J0",
+      1,
+      1.0
+    ],
+    [
+      "J0",
+      "R",
+      1,
+      1.0
+    ],
+    [
+      "L",
+      "R",
+      1,
+      1.0
+    ],
+    [
+      "R",
+      "O",
+      1,
+      1.0
+    ]
+  ],
+  "observations": {
+    "urban": "R",
+    "receiver": "R"
+  },
+  "storage": {},
+  "provenance": "Kadamaian-Panataran report pp. 2-3, 7, 11: two inlet branches plus residual 108.28 km2.",
+  "limitations": "The extended lowland network is unresolved. A single O is a boundary aggregate, NOT evidence of only one actual coastal route. Sediment-generated active threads are not reconstructed.",
+  "areas": [
+    155.18,
+    95.9,
+    108.28
+  ]
+}

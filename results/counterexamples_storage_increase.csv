@@ -1,0 +1,6 @@
+case,variant,scenario_id,node,role,storage_tau,capacity,buffer,spill_fraction,spill_fraction_base,delta_spill,spread,duration,weights,activation,delay,memory,rep
+MANADO,report_coarse,529,R,urban_and_receiver,8.0,5.0,10.0,0.1740887486129465,0.0,0.1740887486129465,24,8,equal,subset,unit,0.0,1
+MANADO,report_coarse,538,R,urban_and_receiver,8.0,5.0,10.0,0.1740887486129465,0.0,0.1740887486129465,24,8,equal,subset,heterogeneous,0.0,2
+MANADO,report_coarse,920,R,urban_and_receiver,8.0,2.0,0.0,0.3411111470750579,0.1999999999999997,0.1411111470750582,24,24,equal,subset,heterogeneous,0.0,0
+MANADO,report_coarse,920,R,urban_and_receiver,8.0,2.0,10.0,0.2411111470750579,0.0999999999999997,0.1411111470750582,24,24,equal,subset,heterogeneous,0.0,0
+MANADO,report_coarse,99,R,urban_and_receiver,2.0,20.0,0.0,0.3586316509282259,0.221197235349063,0.13743441557916292,8,2,random,all,unit,0.0,3

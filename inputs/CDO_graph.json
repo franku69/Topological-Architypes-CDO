@@ -1,0 +1,73 @@
+{
+  "case": "CDO",
+  "label": "CDO river corridor",
+  "variant": "report_coarse",
+  "sources": [
+    "U",
+    "T",
+    "B",
+    "L"
+  ],
+  "names": {
+    "U": "Upper CDO",
+    "T": "Tumalaong",
+    "B": "Bubunawan",
+    "L": "Connected lower laterals",
+    "J0": "Tumalaong junction",
+    "J1": "Bubunawan junction",
+    "R": "Lower CDO receiving corridor",
+    "O": "Macajalar Bay boundary"
+  },
+  "edges": [
+    [
+      "U",
+      "J0",
+      1,
+      1.0
+    ],
+    [
+      "T",
+      "J0",
+      1,
+      1.0
+    ],
+    [
+      "J0",
+      "J1",
+      1,
+      1.0
+    ],
+    [
+      "B",
+      "J1",
+      1,
+      1.0
+    ],
+    [
+      "J1",
+      "R",
+      1,
+      1.0
+    ],
+    [
+      "L",
+      "R",
+      1,
+      1.0
+    ],
+    [
+      "R",
+      "O",
+      1,
+      1.0
+    ]
+  ],
+  "observations": {
+    "urban": "R",
+    "receiver": "R"
+  },
+  "storage": {},
+  "provenance": "CDO report pp. 2-3, 11-12: named confluence order and independent B1-B4 sources.",
+  "limitations": "B4 is a coarse connected-lateral aggregate. Minor topology and branch areas are absent. R is NOT a demonstrated Lapasan inundation node. No Lapasan edge is inferred from proximity.",
+  "areas": null
+}

@@ -1,0 +1,102 @@
+{
+  "case": "HATYAI",
+  "label": "U-Tapao-Khlong Wat / Hat Yai",
+  "variant": "report_coarse",
+  "sources": [
+    "U",
+    "W",
+    "A",
+    "T",
+    "H",
+    "L"
+  ],
+  "names": {
+    "U": "Upper U-Tapao / Sadao",
+    "W": "Khlong Wat",
+    "A": "Khlong Wa",
+    "T": "Khlong Tam",
+    "H": "Khao Kho Hong",
+    "L": "Urban direct input",
+    "Urb": "Hat Yai entry / storage ZONE",
+    "D0": "U-Tapao lakeward path",
+    "D1": "Ror.1 path",
+    "R": "Songkhla receiving aggregate",
+    "O": "Gulf boundary aggregate"
+  },
+  "edges": [
+    [
+      "U",
+      "Urb",
+      1,
+      1.0
+    ],
+    [
+      "W",
+      "Urb",
+      1,
+      1.0
+    ],
+    [
+      "A",
+      "Urb",
+      1,
+      1.0
+    ],
+    [
+      "T",
+      "Urb",
+      1,
+      1.0
+    ],
+    [
+      "H",
+      "Urb",
+      1,
+      1.0
+    ],
+    [
+      "L",
+      "Urb",
+      1,
+      1.0
+    ],
+    [
+      "Urb",
+      "D0",
+      1,
+      0.5
+    ],
+    [
+      "Urb",
+      "D1",
+      1,
+      0.5
+    ],
+    [
+      "D0",
+      "R",
+      1,
+      1.0
+    ],
+    [
+      "D1",
+      "R",
+      1,
+      1.0
+    ],
+    [
+      "R",
+      "O",
+      1,
+      1.0
+    ]
+  ],
+  "observations": {
+    "urban": "Urb",
+    "receiver": "R"
+  },
+  "storage": {},
+  "provenance": "Hat Yai report pp. 3, 10, 21, 24-26: distinct inputs, two principal lakeward corridors and common receiving lake.",
+  "limitations": "Urb is a shared floodplain entry aggregate, not a claim that six streams meet at a single point. Canal split 50:50 is a neutral assumption. Lake restriction is represented only as receiving-service sensitivity, not a solved water level or backwater field.",
+  "areas": null
+}

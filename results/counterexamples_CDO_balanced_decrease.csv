@@ -1,0 +1,6 @@
+case,variant,scenario_id,node,role,storage_tau,capacity,buffer,spill_fraction,spill_fraction_base,delta_spill,spread,duration,weights,activation,delay,memory,rep
+CDO,binary_04,121,R,urban_and_receiver,0.0,20.0,0.0,0.0013972760084955,0.4571035206499033,-0.4557062446414078,8,2,random,subset,heterogeneous,0.0,1
+CDO,binary_04,121,R,urban_and_receiver,0.0,10.0,30.0,0.0142070412998067,0.4,-0.3857929587001933,8,2,random,subset,heterogeneous,0.0,1
+CDO,binary_04,121,R,urban_and_receiver,0.0,10.0,10.0,0.2142070412998067,0.6,-0.38579295870019326,8,2,random,subset,heterogeneous,0.0,1
+CDO,binary_03,121,R,urban_and_receiver,0.0,20.0,10.0,0.0,0.3571035206499033,-0.3571035206499033,8,2,random,subset,heterogeneous,0.0,1
+CDO,binary_04,121,R,urban_and_receiver,0.0,20.0,10.0,0.0,0.3571035206499033,-0.3571035206499033,8,2,random,subset,heterogeneous,0.0,1

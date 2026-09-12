@@ -1,0 +1,29 @@
+{
+  "seed": 260911,
+  "horizon": 512,
+  "volume": 100.0,
+  "capacities": [
+    2.0,
+    5.0,
+    10.0,
+    20.0
+  ],
+  "buffers": [
+    0.0,
+    10.0,
+    30.0
+  ],
+  "main_scenarios": 1152,
+  "time_unit": "abstract discrete tick; not hour",
+  "overflow": "standalone finite-buffer diagnostic; NOT spatial inundation",
+  "comparison": "normalized forcing; not calibrated geographic risk ranking",
+  "uncertain_graphs": "Kuranji zone -> all 105 binary refinements; not observed networks",
+  "area_weighting": "supplement only in Kuranji, Hue and Kadamaian; no invented areas elsewhere",
+  "storage_tau": [
+    0.0,
+    2.0,
+    8.0
+  ],
+  "storage_tau_status": "hypothetical release times, not observed operation",
+  "source": "six user-uploaded reports; no external source verification performed"
+}

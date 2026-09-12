@@ -1,0 +1,82 @@
+{
+  "case": "MANADO",
+  "label": "Tondano-Tikala / Manado",
+  "variant": "report_coarse",
+  "sources": [
+    "U",
+    "T",
+    "L"
+  ],
+  "names": {
+    "U": "Upper Tondano / lake inflow",
+    "T": "Tikala",
+    "L": "Lower connected laterals",
+    "S0": "Lake Tondano control",
+    "S1": "Hydropower control",
+    "S2": "Kuwil-Kawangkoan control",
+    "J0": "Tondano-Tikala junction",
+    "R": "Lower Manado receiver",
+    "O": "Manado Bay boundary"
+  },
+  "edges": [
+    [
+      "U",
+      "S0",
+      0,
+      1.0
+    ],
+    [
+      "S0",
+      "S1",
+      0,
+      1.0
+    ],
+    [
+      "S1",
+      "S2",
+      0,
+      1.0
+    ],
+    [
+      "S2",
+      "J0",
+      1,
+      1.0
+    ],
+    [
+      "T",
+      "J0",
+      1,
+      1.0
+    ],
+    [
+      "J0",
+      "R",
+      1,
+      1.0
+    ],
+    [
+      "L",
+      "R",
+      1,
+      1.0
+    ],
+    [
+      "R",
+      "O",
+      1,
+      1.0
+    ]
+  ],
+  "observations": {
+    "urban": "R",
+    "receiver": "R"
+  },
+  "storage": {
+    "S0": 1.0,
+    "S2": 0.5
+  },
+  "provenance": "Manado report pp. 3, 5, 12, 19: separate mainstem/Tikala, conceptual control sequence and topology metrics.",
+  "limitations": "Controls are functional aggregates, not surveyed chainage. Zero-delay connector edges avoid adding travel merely because a storage box was drawn. Hydropower operation is not simulated. Release times are hypothetical.",
+  "areas": null
+}

@@ -1,0 +1,17 @@
+{
+  "completed_routes": 43848,
+  "probe_evaluations": 616032,
+  "node_metric_rows": 51336,
+  "outlet_counterfactual_evaluations": 82944,
+  "max_routing_mass_error": 9.14823772291129e-14,
+  "max_queue_mass_error": 3.268496584496461e-13,
+  "max_routing_terminal_residual": 1.2079226507823167e-13,
+  "elapsed_seconds": 38.30424537900001,
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "n_scenarios": 1152,
+  "n_reference_cases": 6,
+  "n_kuranji_refinements": 105,
+  "n_kuranji_scenarios": 72,
+  "model_status": "report-derived coarse topology; synthetic parameters; no hydraulic/spatial validation"
+}

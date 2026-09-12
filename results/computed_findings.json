@@ -1,0 +1,49 @@
+{
+  "CDO": {
+    "reference_variant": "binary_12",
+    "mean_rank": 7.720775462962963,
+    "median_rank": 8.0,
+    "median_reference_spill": 0.0,
+    "mean_reference_spill": 0.18390102996549781,
+    "informative_settings": 7903,
+    "total_settings": 13824,
+    "mean_informative_rank": 7.511577881817032,
+    "median_informative_rank": 6.5,
+    "rank_of_ensemble_mean": 12.0,
+    "n_arrangements": 15,
+    "n_unlabelled_shapes": 2,
+    "mean_balanced_delta": 0.020953639000570828,
+    "balanced_greater": 0.3727092978395062,
+    "balanced_less": 0.13158275462962962,
+    "balanced_tie": 0.4957079475308642
+  },
+  "Kuranji": {
+    "n_refinements": 105,
+    "n_unlabelled_shapes": 3,
+    "n_scenarios": 72,
+    "collapsed_mean_spill": 0.2418102627913404,
+    "refinement_min_mean_spill": 0.19307247122706522,
+    "refinement_max_mean_spill": 0.2302869086152951,
+    "refinement_median_mean_spill": 0.20233252697571677,
+    "min_overflow_share": 0.49537037037037035,
+    "max_overflow_share": 0.5636574074074074
+  },
+  "HatYai": {
+    "edge_cut_city_to_lake": 2,
+    "edge_cut_city_to_gulf": 1
+  },
+  "checks": {
+    "routing_rows": 43848,
+    "probe_rows": 616032,
+    "max_routing_error": 9.14823772291129e-14,
+    "max_probe_error": 3.2684965844964614e-13,
+    "max_probe_final_storage": 0.0,
+    "max_residual": 1.207922650782317e-13,
+    "no_negative_spill": true,
+    "no_missing_parameters": true,
+    "CDO_identity_max_error": 0.0,
+    "outlet_null_max_error": 0.0,
+    "unique_case_count_reference": 6,
+    "primary_receiver_evaluations": 82944
+  }
+}

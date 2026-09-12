@@ -1,0 +1,6 @@
+# Exact scientific versions tested with Python 3.13.5
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+networkx==3.6.1
+numba==0.65.1

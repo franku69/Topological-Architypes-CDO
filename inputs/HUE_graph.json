@@ -1,0 +1,117 @@
+{
+  "case": "HUE",
+  "label": "Huong / Hue",
+  "variant": "report_coarse",
+  "sources": [
+    "T",
+    "H",
+    "B",
+    "L"
+  ],
+  "names": {
+    "T": "Ta Trach",
+    "H": "Huu Trach",
+    "B": "Bo",
+    "L": "Downstream residual runoff",
+    "S0": "Ta Trach reservoir",
+    "S1": "Binh Dien reservoir",
+    "S2": "Huong Dien reservoir",
+    "J0": "Tuan confluence",
+    "U": "Hue / Kim Long",
+    "J1": "Sinh confluence",
+    "R": "Lagoon receiving aggregate",
+    "O0": "Thuan An inlet boundary",
+    "O1": "Tu Hien inlet boundary"
+  },
+  "edges": [
+    [
+      "T",
+      "S0",
+      0,
+      1.0
+    ],
+    [
+      "H",
+      "S1",
+      0,
+      1.0
+    ],
+    [
+      "B",
+      "S2",
+      0,
+      1.0
+    ],
+    [
+      "S0",
+      "J0",
+      1,
+      1.0
+    ],
+    [
+      "S1",
+      "J0",
+      1,
+      1.0
+    ],
+    [
+      "J0",
+      "U",
+      1,
+      1.0
+    ],
+    [
+      "U",
+      "J1",
+      1,
+      1.0
+    ],
+    [
+      "S2",
+      "J1",
+      1,
+      1.0
+    ],
+    [
+      "L",
+      "J1",
+      1,
+      1.0
+    ],
+    [
+      "J1",
+      "R",
+      1,
+      1.0
+    ],
+    [
+      "R",
+      "O0",
+      1,
+      0.5
+    ],
+    [
+      "R",
+      "O1",
+      1,
+      0.5
+    ]
+  ],
+  "observations": {
+    "urban": "U",
+    "receiver": "R"
+  },
+  "storage": {
+    "S0": 1.0,
+    "S1": 1.0,
+    "S2": 1.0
+  },
+  "provenance": "Huong report pp. 3, 6, 10-12, 22: Tuan-Hue-Sinh sequence, three control nodes, lagoon/inlet system.",
+  "limitations": "Bo is NEVER added upstream of Hue in the reference. The residual floodplain source is provisionally injected at Sinh, not assigned wholly to Hue; an alternative location is tested. Lagoon/distributaries are aggregated, and 50:50 inlet splitting is assumed, not measured. No reverse/backwater propagation is modeled.",
+  "areas": [
+    729.0,
+    718.0,
+    938.0,
+    445.0
+  ]
+}

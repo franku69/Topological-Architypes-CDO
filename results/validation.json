@@ -1,0 +1,132 @@
+[
+  {
+    "test": "Scenario grid size",
+    "passed": true,
+    "detail": 1152
+  },
+  {
+    "test": "All source / edge / acyclic checks",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Four-leaf binary family size",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Five-leaf binary family size",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Exact hand queue arithmetic",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Zero input no spill",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Unlimited service no spill",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "More service never increases spill",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "More buffer never increases spill",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Closed outlet accounts for retained water",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "CDO paths independently matched",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Bo not injected upstream of Hue",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Downstream residual not falsely wholly assigned to Hue",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "All four Huong groups reach lagoon",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Neutral-storage two-branch clones match under unit delays",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Graph relabel invariance, unit delay",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Routing conservation over stress checks",
+    "passed": true,
+    "detail": 2.13162820728155e-14
+  },
+  {
+    "test": "512 vs 1024 horizon sensitivity",
+    "passed": true,
+    "detail": 2.842170943040401e-14
+  },
+  {
+    "test": "Terminal mass CDO",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Terminal mass MANADO",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Terminal mass KURANJI",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Terminal mass HUE",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Terminal mass KADAMAIAN",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Terminal mass HATYAI",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Filter matches independent recurrence",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Steady lossless inflow sums equally",
+    "passed": true,
+    "detail": ""
+  }
+]

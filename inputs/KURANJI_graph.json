@@ -1,0 +1,80 @@
+{
+  "case": "KURANJI",
+  "label": "Batang Kuranji / Padang",
+  "variant": "report_coarse",
+  "sources": [
+    "K",
+    "B",
+    "S",
+    "J",
+    "M"
+  ],
+  "names": {
+    "K": "Kuranji base",
+    "B": "Belimbing",
+    "S": "Sungkai",
+    "J": "Janiah / Karuah",
+    "M": "Limau Manih",
+    "Z": "Unresolved middle confluence ZONE",
+    "R": "Lower Kuranji receiver",
+    "O": "Indian Ocean boundary"
+  },
+  "edges": [
+    [
+      "K",
+      "Z",
+      1,
+      1.0
+    ],
+    [
+      "B",
+      "Z",
+      1,
+      1.0
+    ],
+    [
+      "S",
+      "Z",
+      1,
+      1.0
+    ],
+    [
+      "J",
+      "Z",
+      1,
+      1.0
+    ],
+    [
+      "M",
+      "Z",
+      1,
+      1.0
+    ],
+    [
+      "Z",
+      "R",
+      1,
+      1.0
+    ],
+    [
+      "R",
+      "O",
+      1,
+      1.0
+    ]
+  ],
+  "observations": {
+    "urban": "R",
+    "receiver": "R"
+  },
+  "storage": {},
+  "provenance": "Kuranji report pp. 1-3, 7, 13, 21: five-subbasin partition and conceptual confluence network.",
+  "limitations": "Z is NOT a verified five-way point junction. The report does not give the complete order of the five branches. All 105 binary refinements are separately tested as uncertainty alternatives. No extra urban source is added to a partition already totaling 202.69 km2.",
+  "areas": [
+    19.86,
+    62.64,
+    6.0,
+    82.26,
+    31.93
+  ]
+}

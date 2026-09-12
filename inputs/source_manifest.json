@@ -1,0 +1,44 @@
+[
+  {
+    "cite_id": "D1",
+    "case": "CDO",
+    "filename": "Focused_CDO_Kitanglad_Deep_Terrain_Hydrology_Simulation_Analysis (1) (1) (1) (1) (1)(8).pdf",
+    "sha256": "d2dfabe1eff973120af540c26dd1ae53a07dbe6545902d6cb63286ce36d9c3b8",
+    "bytes": 1060863
+  },
+  {
+    "cite_id": "D2",
+    "case": "MANADO",
+    "filename": "Tondano_Tikala_Manado_Deep_Terrain_Hydrology_Topology_Simulation_Analysis (1).pdf",
+    "sha256": "a9a4d228db5a9b06c1309cc30b5206936ac446a7683cda441348e1d42b9f6383",
+    "bytes": 2059364
+  },
+  {
+    "cite_id": "D3",
+    "case": "KURANJI",
+    "filename": "Batang_Kuranji_Padang_Deep_Terrain_Hydrology_Topology_Simulation_Analysis (1).pdf",
+    "sha256": "5e89ae891cb913328019dc0f5216f6c6001bb094f758ce644e0dfb11382ec0fb",
+    "bytes": 1777099
+  },
+  {
+    "cite_id": "D4",
+    "case": "HUE",
+    "filename": "Huong_Hue_Deep_Terrain_Hydrology_Topology_Simulation_Analysis (1).pdf",
+    "sha256": "24e6868b87ab0f1300e03e187dc1c1f3e78dc5ecf0b5bbaec63b1111a7be16ea",
+    "bytes": 1647523
+  },
+  {
+    "cite_id": "D5",
+    "case": "KADAMAIAN",
+    "filename": "Kadamaian_Panataran_Kota_Belud_Deep_Terrain_Hydrology_Topology_Simulation_Analysis (1).pdf",
+    "sha256": "90df5710aff166b64ae5cc4ee2e3260e7af4eced0bd739a9477d6caff58c4558",
+    "bytes": 2107493
+  },
+  {
+    "cite_id": "D6",
+    "case": "HATYAI",
+    "filename": "U_Tapao_Khlong_Wat_Hat_Yai_Deep_Terrain_Hydrology_Topology_Simulation_Analysis (1).pdf",
+    "sha256": "09bcf0d6be553466032547cf2fadbfef68e641e350942f25a7929e4415e8e8b0",
+    "bytes": 1532002
+  }
+]
