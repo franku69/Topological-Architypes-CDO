@@ -164,4 +164,4 @@ All six HTML selections were checked in Chromium; desktop/mobile layouts had no
 page errors or mobile horizontal overflow in that test.
 
 These verify implementation, NOT observed flood behaviour, surveyed geometry,
-annual risk, backwater physics, publication acceptance, or novelty. 
+annual risk, backwater physics. 
